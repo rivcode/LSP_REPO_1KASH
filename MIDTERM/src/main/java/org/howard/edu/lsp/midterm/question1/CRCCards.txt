@@ -1,0 +1,89 @@
+Library System CRC Cards
+====================
+
+Part 1: Class Identification (10 pts)
+-----------------------------------
+
+1. Book Class
+   Explanation: Essential for representing individual books in the library collection. 
+   Each book needs to maintain its information and availability status.
+
+2. Member Class
+   Explanation: Required to represent library members who can borrow books.
+   Manages member information and their borrowed books.
+
+3. Library Class
+   Explanation: Central class needed to manage the overall library system.
+   Coordinates between books, members, and librarians.
+
+4. Librarian Class
+   Explanation: Necessary for administrative functions and system management.
+   Handles book collection maintenance and monitoring.
+
+Part 2: Class Responsibilities (10 pts)
+-------------------------------------
+
+Class: Book
+------------------------
+Responsibilities:
+* Store and maintain book information (title, author, ISBN)
+* Track and update availability status
+
+Class: Member
+------------------------
+Responsibilities:
+* Maintain member personal information
+* Track currently borrowed books (up to 3)
+* Handle borrowing and returning of books
+
+Class: Library
+------------------------
+Responsibilities:
+* Maintain the complete collection of books
+* Process book borrowing and return transactions
+* Track overall book availability
+* Generate reports on book status
+
+Class: Librarian
+------------------------
+Responsibilities:
+* Add and remove books from the collection
+* View list of available books
+* Monitor checked out books and their borrowers
+
+Part 3: Class Collaborations (10 pts)
+-----------------------------------
+
+Class: Book
+------------------------
+Collaborators:
+* Library
+  - Reason: Library needs to manage the book in its collection
+* Member
+  - Reason: Members need to interact with books for borrowing/returning
+
+Class: Member
+------------------------
+Collaborators:
+* Book
+  - Reason: Members need to borrow and return books
+* Library
+  - Reason: Library needs to process member's book transactions
+
+Class: Library
+------------------------
+Collaborators:
+* Book
+  - Reason: Manages collection of books
+* Member
+  - Reason: Processes member requests and tracks memberships
+* Librarian
+  - Reason: Provides system access for administrative tasks
+
+Class: Librarian
+------------------------
+Collaborators:
+* Library
+  - Reason: Needs access to library system for administrative tasks
+* Book
+  - Reason: Manages book additions and removals from collection 
