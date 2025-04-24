@@ -1,0 +1,19 @@
+One instance where using a design pattern may not be beneficial is when it leads to 
+overcomplicating the design for a problem that has a simple solution. As discussed in 
+lecture (see Slide 4 of "An Introduction to Design Patterns"), while patterns promote 
+flexibility and reuse, this can come at the cost of increased complexity in the system's 
+architecture.
+
+For example, applying a design pattern like Strategy or Template Method in a case where 
+behavior is unlikely to change might unnecessarily increase the number of classes and 
+interfaces in the system. This violates the KISS principle ("Keep It Simple, Stupid") 
+that was emphasized in class and could lead to reduced clarity and maintainability of 
+the code.
+
+Thus, using a pattern just for the sake of using one, instead of solving a recurring 
+design issue, contradicts the practical and contextual nature that design patterns are 
+meant to embody. Patterns are tools—not mandates—and forcing them into simple problems 
+may hurt more than help.
+
+Reference:
+"An Introduction to Design Patterns." lecture
