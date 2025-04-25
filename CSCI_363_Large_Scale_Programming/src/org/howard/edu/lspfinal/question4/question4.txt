@@ -15,5 +15,5 @@ design issue, contradicts the practical and contextual nature that design patter
 meant to embody. Patterns are tools—not mandates—and forcing them into simple problems 
 may hurt more than help.
 
-Reference:
-"An Introduction to Design Patterns." lecture
+Reference: "An Introduction to Design Patterns." lecture
+Reference: "Design Patterns: Elements of Reusable Object-Oriented Software" by Gamma et al.
